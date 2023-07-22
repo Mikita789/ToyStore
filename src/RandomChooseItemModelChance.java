@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class ChooseItemModel implements ChooseItemInterface{
+public class RandomChooseItemModelChance implements ChooseItemInterface{
     public StoreItemInterface chooseItem(ArrayList<StoreItemInterface> fromItemsArray){
         Integer totalProbability = 0;
         for(StoreItemInterface item : fromItemsArray){
